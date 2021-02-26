@@ -1,0 +1,7 @@
+reactjs:
+  name: testproject
+  branch:
+    - name: master
+      environments:
+        - name: dev
+          region: us-west-2
