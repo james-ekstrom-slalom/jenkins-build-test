@@ -8,15 +8,3 @@ reactjs:
       environments:
         - name: dev
           region: us-west-2
-
-
-    domain: <url domain>
-    releaseInfo: 'release-build-artifacts/current_releases.yaml'
-    s3Bucket: '<SAM-ARTIFACT-S3-BUCKET>'
-    s3EUBucket: '<SAM-ARTIFACT-S3-BUCKET-EU>'
-    ssmNpmToken: '<SSM PATH>'
-    tagsFile: 'tags.yaml'
-    accounts:
-      - dev: <AWS ACCOUNT>
-      - shared: <AWS ACCOUNT>
-      - prod: <AWS ACCOUNT>
