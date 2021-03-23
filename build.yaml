@@ -1,6 +1,6 @@
+parameterPath: /service/test-build/testproject
 reactjs:
   name: testproject
-  parameterPath: /service/test-build/testproject
   parameters: 
     - domain: "url domain"
   branch:
